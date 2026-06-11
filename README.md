@@ -4,125 +4,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juan Diego Martínez Cerpa | Full Stack Developer</title>
-    <style>
-        /* ========================================
-           VARIABLES & RESET
-        ======================================== */
-        :root {
-            --bg-color: #070709;
-            --glass-bg: rgba(255, 255, 255, 0.04);
-            --glass-border: rgba(255, 255, 255, 0.08);
-            --accent-cyan: #00f0ff;
-            --accent-purple: #bd00ff;
-            --text-main: #f8f8f8;
-            --text-muted: #a0a0b0;
-            --font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            --transition-smooth: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-        }
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <div class="bg-mesh"></div>
 
-        html {
-            scroll-behavior: smooth;
-        }
+    <nav id="navbar">
+        <div class="container nav-content">
+            <div class="logo">JDMC.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        body {
-            font-family: var(--font-main);
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            overflow-x: hidden;
-            line-height: 1.6;
-        }
+    <header id="home" class="hero container">
+        <div class="hero-content reveal">
+            <span class="greeting">Hola, mundo. Soy</span>
+            <h1><span id="typing-name" class="typing-text"></span></h1>
+            <h2>Desarrollador Full Stack</h2>
+            <p class="hero-desc">
+                Construyendo arquitecturas escalables, APIs RESTful y experiencias web inmersivas.
+            </p>
+            <a href="#projects" class="btn-glow">Ver mis proyectos</a>
+        </div>
+    </header>
 
-        /* Animated Background Mesh */
-        .bg-mesh {
-            position: fixed;
-            top: 0; left: 0; width: 100vw; height: 100vh;
-            z-index: -1;
-            background: 
-                radial-gradient(circle at 15% 50%, rgba(0, 240, 255, 0.06), transparent 40%),
-                radial-gradient(circle at 85% 30%, rgba(189, 0, 255, 0.06), transparent 40%);
-            filter: blur(80px);
-            animation: pulseBg 10s infinite alternate;
-        }
+    <section id="about" class="container">
+        <h2 class="section-title reveal">Sobre Mí</h2>
+        <div class="about-grid">
+            <div class="about-text glass reveal">
+                <div class="about-inner-padding">
+                    <p>Soy un especialista en el diseño y desarrollo de soluciones web completas, enfocado en el <span class="highlight">código limpio y la eficiencia</span>.</p>
+                    <p>Con profunda experiencia en bases de datos relacionales, consumo y creación de APIs RESTful con JSON, mi objetivo es construir arquitecturas verdaderamente escalables y seguras desde el servidor hasta el navegador del cliente.</p>
+                </div>
+            </div>
+            <div class="about-stats reveal">
+                <div class="stat-box glass">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Enfoque Técnico</div>
+                </div>
+                <div class="stat-box glass">
+                    <div class="stat-number">Full</div>
+                    <div class="stat-label">Stack</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        @keyframes pulseBg {
-            0% { transform: scale(1); opacity: 0.8; }
-            100% { transform: scale(1.1); opacity: 1; }
-        }
+    <section id="skills" class="container">
+        <h2 class="section-title reveal">Habilidades Técnicas</h2>
+        <div class="skills-grid">
+            <div class="skill-item glass reveal" data-percent="100">
+                <div class="skill-info"><span>HTML/CSS</span> <span class="counter">0%</span></div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+            </div>
+            <div class="skill-item glass reveal" data-percent="100">
+                <div class="skill-info"><span>PHP</span> <span class="counter">0%</span></div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+            </div>
+            <div class="skill-item glass reveal" data-percent="100">
+                <div class="skill-info"><span>MySQL</span> <span class="counter">0%</span></div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+            </div>
+            <div class="skill-item glass reveal" data-percent="90">
+                <div class="skill-info"><span>Node.js</span> <span class="counter">0%</span></div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+            </div>
+            <div class="skill-item glass reveal" data-percent="86">
+                <div class="skill-info"><span>Python</span> <span class="counter">0%</span></div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+            </div>
+            <div class="skill-item glass reveal" data-percent="80">
+                <div class="skill-info"><span>JavaScript</span> <span class="counter">0%</span></div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+            </div>
+            <div class="skill-item glass reveal" data-percent="80">
+                <div class="skill-info"><span>React</span> <span class="counter">0%</span></div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+            </div>
+            <div class="skill-item glass reveal" data-percent="70">
+                <div class="skill-info"><span>Ruby</span> <span class="counter">0%</span></div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill"></div></div>
+            </div>
+        </div>
+    </section>
 
-        /* ========================================
-           UTILITIES (Glassmorphism & Reveal)
-        ======================================== */
-        .glass {
-            background: var(--glass-bg);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid var(--glass-border);
-            border-radius: 20px;
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-        }
+    <section id="projects" class="container">
+        <h2 class="section-title reveal">Proyectos Destacados</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card glass reveal">
+                <span class="project-type">Backend / API</span>
+                <h3 class="project-title">API RESTful E-commerce</h3>
+                <p class="project-desc">Arquitectura escalable para procesamiento de pagos, gestión de inventario en tiempo real e interacciones JSON de alto rendimiento.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">REST API</span>
+                </div>
+            </div>
 
-        .container {
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
+            <div class="project-card glass reveal delay-1">
+                <span class="project-type">Full Stack</span>
+                <h3 class="project-title">Dashboard de Gestión</h3>
+                <p class="project-desc">Panel de control neo-brutalista para visualización de datos de empresas B2B. Interfaz fluida y consumo asíncrono de múltiples endpoints.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">Python</span>
+                </div>
+            </div>
 
-        .reveal {
-            opacity: 0;
-            transform: translateY(40px);
-            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-        }
+            <div class="project-card glass reveal delay-2">
+                <span class="project-type">Arquitectura</span>
+                <h3 class="project-title">Core de Microservicios</h3>
+                <p class="project-desc">Sistema distribuido para alta concurrencia, balanceo de carga y aislamiento de bases de datos relacionales.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">Ruby</span>
+                </div>
+            </div>
 
-        .reveal.active {
-            opacity: 1;
-            transform: translateY(0);
-        }
+        </div>
+    </section>
 
-        /* ========================================
-           NAVIGATION
-        ======================================== */
-        nav {
-            position: fixed;
-            top: 0; left: 0; width: 100%;
-            padding: 1.5rem 0;
-            z-index: 1000;
-            transition: var(--transition-smooth);
-        }
-
-        nav.scrolled {
-            padding: 1rem 0;
-            background: rgba(7, 7, 9, 0.8);
-            backdrop-filter: blur(15px);
-            border-bottom: 1px solid var(--glass-border);
-        }
-
-        .nav-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.2rem;
-            font-weight: 700;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-            list-style: none;
-        }
-
-        .nav-links a
+    <footer id="contact" class="container">
+        <div class="footer-content reveal glass">
+            <h2>¿Listo para construir algo extraordinario?</h2>
+            <p class="footer-desc">
+                Actualmente abierto a nuevas oportunidades como Desarrollador Full Stack. Si buscas código robusto y un diseño impecable, hablemos.
+            </p>
+            <div class="social-links">
+                <a href
