@@ -1,66 +1,128 @@
-<div align="center">
-  <h1>¡Hola! Soy Juan Diego Martínez Cerpa 👋</h1>
-  <h3>Desarrollador Full Stack | Creador de Soluciones Tecnológicas</h3>
-</div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Diego Martínez Cerpa | Full Stack Developer</title>
+    <style>
+        /* ========================================
+           VARIABLES & RESET
+        ======================================== */
+        :root {
+            --bg-color: #070709;
+            --glass-bg: rgba(255, 255, 255, 0.04);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --accent-cyan: #00f0ff;
+            --accent-purple: #bd00ff;
+            --text-main: #f8f8f8;
+            --text-muted: #a0a0b0;
+            --font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            --transition-smooth: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+        }
 
-<br/>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<h2>👨‍💻 Sobre mí</h2>
-<ul>
-  <li>💻 Soy un desarrollador versátil con un dominio muy fuerte tanto en tecnologías Frontend como Backend.</li>
-  <li>⚙️ Especializado en bases de datos relacionales, consumo, estructuración y creación de <b>APIs RESTful con JSON</b>.</li>
-  <li>🚀 Apasionado por escribir código limpio, eficiente y siempre dispuesto a enfrentar nuevos retos tecnológicos.</li>
-</ul>
+        html {
+            scroll-behavior: smooth;
+        }
 
-<hr/>
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
 
-<h2>📈 Estadísticas de Conocimiento (Stack Tecnológico)</h2>
+        /* Animated Background Mesh */
+        .bg-mesh {
+            position: fixed;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            z-index: -1;
+            background: 
+                radial-gradient(circle at 15% 50%, rgba(0, 240, 255, 0.06), transparent 40%),
+                radial-gradient(circle at 85% 30%, rgba(189, 0, 255, 0.06), transparent 40%);
+            filter: blur(80px);
+            animation: pulseBg 10s infinite alternate;
+        }
 
-<p>A lo largo de mi trayectoria he consolidado mi dominio en diversas tecnologías. Aquí puedes ver una estimación de mis habilidades actuales:</p>
+        @keyframes pulseBg {
+            0% { transform: scale(1); opacity: 0.8; }
+            100% { transform: scale(1.1); opacity: 1; }
+        }
 
-<table>
-  <thead>
-    <tr>
-      <th align="left">Tecnología / Herramienta</th>
-      <th align="center">Nivel de Dominio</th>
-      <th align="left">Progreso</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="https://img.shields.io/badge/HTML5_%26_CSS3-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML/CSS" width="120"/></td>
-      <td align="center"><b>100%</b></td>
-      <td>████████████████████</td>
-    </tr>
-    <tr>
-      <td><img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" alt="PHP" width="120"/></td>
-      <td align="center"><b>100%</b></td>
-      <td>████████████████████</td>
-    </tr>
-    <tr>
-      <td><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL" width="120"/></td>
-      <td align="center"><b>100%</b></td>
-      <td>████████████████████</td>
-    </tr>
-    <tr>
-      <td><img src="https://img.shields.io/badge/Node.js_%26_APIs-339933?style=flat&logo=nodedotjs&logoColor=white" alt="NodeJS" width="120"/></td>
-      <td align="center"><b>90%</b></td>
-      <td>██████████████████░░</td>
-    </tr>
-    <tr>
-      <td><img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" width="120"/></td>
-      <td align="center"><b>86%</b></td>
-      <td>█████████████████░░░</td>
-    </tr>
-    <tr>
-      <td><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JS" width="120"/></td>
-      <td align="center"><b>80%</b></td>
-      <td>████████████████░░░░</td>
-    </tr>
-    <tr>
-      <td><img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React" width="120"/></td>
-      <td align="center"><b>80%</b></td>
-      <td>████████████████░░░░</td>
-    </tr>
-    <tr>
-      <td><img src="
+        /* ========================================
+           UTILITIES (Glassmorphism & Reveal)
+        ======================================== */
+        .glass {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ========================================
+           NAVIGATION
+        ======================================== */
+        nav {
+            position: fixed;
+            top: 0; left: 0; width: 100%;
+            padding: 1.5rem 0;
+            z-index: 1000;
+            transition: var(--transition-smooth);
+        }
+
+        nav.scrolled {
+            padding: 1rem 0;
+            background: rgba(7, 7, 9, 0.8);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.2rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a
