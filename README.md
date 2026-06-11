@@ -1,13 +1,5 @@
 <h1 align="center">
-  <!-- Efecto de máquina de escribir animado -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Juan+Diego+Martínez+Cerpa;Desarrollador+Full+Stack;ArquEntendido. Para darle un perfil más sobrio, corporativo y orgánico, he retirado todos los emojis y ajustado un poco la redacción para que suene directo y profesional.
-
-Aquí tienes la versión limpia y optimizada para tu `README.md`. Recuerda cambiar **`TU_USUARIO`** por tu nombre de usuario real en los enlaces.
-
-```html
-<h1 align="center">
-  <!-- Efecto de máquina de escribir animado -->
-  <img src="[https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Hola,+soy+Juan+Diego+Martínez;Desarrollador+Full+Stack;Especialista+en+APIs+y+Bases+de+Datos](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Hola,+soy+Juan+Diego+Martínez;Desarrollador+Full+Stack;Especialista+en+APIs+y+Bases+de+Datos)" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Juan+Diego+Martínez+Cerpa;Desarrollador+Full+Stack;Especialista+en+APIs+y+Bases+de+Datos" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -15,14 +7,14 @@ Aquí tienes la versión limpia y optimizada para tu `README.md`. Recuerda cambi
 </p>
 
 <div align="center">
-  <a href="[https://github.com/TU_USUARIO](https://github.com/TU_USUARIO)">
-    <img src="[https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)" alt="GitHub" />
+  <a href="https://github.com/juan-cap">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="#">
-    <img src="[https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="#">
-    <img src="[https://img.shields.io/badge/Portfolio-0b0c10?style=for-the-badge&logo=planet&logoColor=00e5ff](https://img.shields.io/badge/Portfolio-0b0c10?style=for-the-badge&logo=planet&logoColor=00e5ff)" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-0b0c10?style=for-the-badge&logo=planet&logoColor=00e5ff" alt="Portfolio" />
   </a>
 </div>
 
@@ -40,14 +32,14 @@ Aquí tienes la versión limpia y optimizada para tu `README.md`. Recuerda cambi
 ### Stack Tecnológico
 
 <p align="center">
-  <img src="[https://img.shields.io/badge/HTML5_%26_CSS3-100%25-E34F26?style=flat-square&logo=html5&logoColor=white](https://img.shields.io/badge/HTML5_%26_CSS3-100%25-E34F26?style=flat-square&logo=html5&logoColor=white)" alt="HTML/CSS 100%" />
-  <img src="[https://img.shields.io/badge/PHP-100%25-777BB4?style=flat-square&logo=php&logoColor=white](https://img.shields.io/badge/PHP-100%25-777BB4?style=flat-square&logo=php&logoColor=white)" alt="PHP 100%" />
-  <img src="[https://img.shields.io/badge/MySQL-100%25-4479A1?style=flat-square&logo=mysql&logoColor=white](https://img.shields.io/badge/MySQL-100%25-4479A1?style=flat-square&logo=mysql&logoColor=white)" alt="MySQL 100%" />
-  <img src="[https://img.shields.io/badge/Node.js_%26_APIs-90%25-339933?style=flat-square&logo=nodedotjs&logoColor=white](https://img.shields.io/badge/Node.js_%26_APIs-90%25-339933?style=flat-square&logo=nodedotjs&logoColor=white)" alt="NodeJS 90%" />
-  <img src="[https://img.shields.io/badge/Python-86%25-3776AB?style=flat-square&logo=python&logoColor=white](https://img.shields.io/badge/Python-86%25-3776AB?style=flat-square&logo=python&logoColor=white)" alt="Python 86%" />
-  <img src="[https://img.shields.io/badge/JavaScript-80%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black](https://img.shields.io/badge/JavaScript-80%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)" alt="JS 80%" />
-  <img src="[https://img.shields.io/badge/React-80%25-61DAFB?style=flat-square&logo=react&logoColor=black](https://img.shields.io/badge/React-80%25-61DAFB?style=flat-square&logo=react&logoColor=black)" alt="React 80%" />
-  <img src="[https://img.shields.io/badge/Ruby-70%25-CC342D?style=flat-square&logo=ruby&logoColor=white](https://img.shields.io/badge/Ruby-70%25-CC342D?style=flat-square&logo=ruby&logoColor=white)" alt="Ruby 70%" />
+  <img src="https://img.shields.io/badge/HTML5_%26_CSS3-100%25-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML/CSS 100%" />
+  <img src="https://img.shields.io/badge/PHP-100%25-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP 100%" />
+  <img src="https://img.shields.io/badge/MySQL-100%25-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL 100%" />
+  <img src="https://img.shields.io/badge/Node.js_%26_APIs-90%25-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="NodeJS 90%" />
+  <img src="https://img.shields.io/badge/Python-86%25-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 86%" />
+  <img src="https://img.shields.io/badge/JavaScript-80%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS 80%" />
+  <img src="https://img.shields.io/badge/React-80%25-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 80%" />
+  <img src="https://img.shields.io/badge/Ruby-70%25-CC342D?style=flat-square&logo=ruby&logoColor=white" alt="Ruby 70%" />
 </p>
 
 <br/>
@@ -55,12 +47,12 @@ Aquí tienes la versión limpia y optimizada para tu `README.md`. Recuerda cambi
 ### Métricas de GitHub
 
 <p align="center">
-  <img src="[https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0c10&title_color=00e5ff&icon_color=b000ff&text_color=ffffff](https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0c10&title_color=00e5ff&icon_color=b000ff&text_color=ffffff)" alt="GitHub Stats" width="48%" />
-  <img src="[https://github-readme-streak-stats.herokuapp.com/?user=TU_USUARIO&theme=tokyonight&hide_border=true&background=0b0c10&ring=00e5ff&fire=b000ff&currStreakNum=ffffff&sideNums=ffffff&sideLabels=8a8d98&dates=8a8d98](https://github-readme-streak-stats.herokuapp.com/?user=TU_USUARIO&theme=tokyonight&hide_border=true&background=0b0c10&ring=00e5ff&fire=b000ff&currStreakNum=ffffff&sideNums=ffffff&sideLabels=8a8d98&dates=8a8d98)" alt="GitHub Streak" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=juan-cap&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0c10&title_color=00e5ff&icon_color=b000ff&text_color=ffffff" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=juan-cap&theme=tokyonight&hide_border=true&background=0b0c10&ring=00e5ff&fire=b000ff&currStreakNum=ffffff&sideNums=ffffff&sideLabels=8a8d98&dates=8a8d98" alt="GitHub Streak" width="48%" />
 </p>
 
 <p align="center">
-  <img src="[https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0c10&title_color=00e5ff&text_color=ffffff](https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0c10&title_color=00e5ff&text_color=ffffff)" alt="Top Langs" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=juan-cap&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0c10&title_color=00e5ff&text_color=ffffff" alt="Top Langs" width="48%" />
 </p>
 
 <br/>
